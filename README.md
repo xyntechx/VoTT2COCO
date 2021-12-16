@@ -1,7 +1,8 @@
 # VoTT2COCO
-Convert VoTT annotations to COCO annotations
+A tool to convert VoTT annotations to COCO annotations
 
 ## 🔨 Usage
+Written below is an example of how you would use this tool:
 ```bash
 python main.py --train-ann example/train_folder/annotation/ --test-ann example/test_folder/annotation/ --output-dir output
 ```
@@ -13,9 +14,10 @@ python main.py --train-ann example/train_folder/annotation/ --test-ann example/t
 `--output-dir`: Path to output directory
 
 ## 📚 Notes
-- This tool does not translate segmentation annotations
-- You must move your images and the output annotations (produced by this tool) to the train and test folders in the output directory after the tool has completed its task
+- This tool does **not** translate segmentation annotations
+- You must **manually** move your images and the output annotations (produced by this tool) to the train and test folders in the specified output directory after the tool has completed its task
 
+Here is a sample output folder structure:
 ![Output Folder Structure](folder-structure.png)
 
 ## 🎉 Contributing
