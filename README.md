@@ -14,7 +14,7 @@ python main.py --train-ann example/train_folder/annotation/ --test-ann example/t
 
 ## 📚 Notes
 - This tool does not translate segmentation annotations
-- You must move your images and the output annotations (produced by this tool) to the train and test folders in the output directory
+- You must move your images and the output annotations (produced by this tool) to the train and test folders in the output directory after the tool has completed its task
 
 ![Output Folder Structure](folder-structure.png)
 
