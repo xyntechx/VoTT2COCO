@@ -20,7 +20,7 @@ python main.py --train-ann example/train_folder/annotation/ --test-ann example/t
 
 Here is a sample output folder structure:
 
-![Output Folder Structure](folder-structure.png)
+![Sample Output Folder Structure](folder-structure.png)
 
 ## 🎉 Contributing
 If you find any bugs or potential features, feel free to write an issue or make a pull request!
